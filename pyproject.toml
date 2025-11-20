@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sam-3d-body"
+version = "0.1.0"
+description = "SAM 3D Body is one part of SAM 3D, a pair of models for object and human mesh reconstruction. If you’re looking for SAM 3D Objects, [click here](https://github.com/facebookresearch/sam-3d-objects)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "braceexpand>=0.1.7",
+    "omegaconf>=2.3.0",
+    "pyrender>=0.1.45",
+    "pytorch-lightning>=2.5.6",
+    "roma>=1.5.4",
+    "termcolor>=3.2.0",
+    "yacs>=0.1.8",
+]
